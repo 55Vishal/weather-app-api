@@ -1,11 +1,90 @@
 .App {
   text-align: center;
+  background-image: url('https://mcdn.wallpapersafari.com/medium/93/55/Vj0axF.jpg');
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.navbar {
+  background-color: black;
+  height: 6vh;
+  color: white;
+  padding-left: 1vw;
+  font-size: x-large;
+  top: 0;
+  left: 0;
 }
+
+.search {
+  margin-top: 15vh;
+  margin-bottom: 10vh;
+  width: 30vw;
+  height: 5vh;
+  border-radius: 50px;
+  padding-left: 1vw;
+}
+button{
+  background-color: #343a40;
+    color: white;
+    border-radius: 20px;
+    font-size: 2vh;
+    position: relative;
+    bottom: 14.7vh;
+    left: 19vw;
+    height: 4vh;
+    width: 5vw;
+    padding-left: 0.5vw;
+    padding-bottom: 0.5vh;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  position: relative;
+  gap: 2vw;
+}
+
+
+.top {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid black;
+  width: 20vw;
+  border-radius: 20px;
+  border: 2px solid black;
+  background-color: gainsboro;
+  opacity: 50%;
+  height: 12vh;
+}
+
+.right {
+  display: flex;
+  border: 2px solid black;
+  background-color: gainsboro;
+  opacity: 50%;
+  width: 30vw;
+  height: 12vh;
+  justify-content: space-around;
+  color: black;
+  font: bold;
+  font-size: xx-large;
+  padding-top: 3vh;
+  border-radius: 20px;
+}
+p{
+  color: black;
+}
+.location{
+  font-size: 3vh;
+}
+.temp h1{
+  font-size: 3vh;
+}
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -32,6 +111,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
