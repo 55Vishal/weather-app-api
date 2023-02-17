@@ -16,7 +16,6 @@ function App() {
     console.log(data)
     setAddresss(city)
     setLocation("")
-  
   }
 
   function handleCapture(e) {
@@ -56,7 +55,7 @@ function App() {
             <p>{data.temp_max}°F</p>
           </div>
           <div className="humidity">
-            <p>{data.temp_min-12.34}°F</p>
+            <p>{data.temp_min-11.3}°F</p>
           </div>
           <div className="wind">{data.wind} 2.3 mph</div>
         </div>
